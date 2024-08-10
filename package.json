@@ -1,0 +1,23 @@
+{
+  "name": "typist",
+  "version": "1.0.0",
+  "description": "Record from tasks to mental notes or even groceries!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "PORT=3001 nodemon server.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Rod-Freedom/C11-Typist"
+  },
+  "author": "Rod-Freedom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rod-Freedom/C11-Typist/issues"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "keywords": []
+}
