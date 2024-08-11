@@ -15,15 +15,12 @@
 
 ## **ABOUT THE PROJECT**
 ### **Overview**
-Record from tasks to mental notes or even groceries!
+Record from tasks to thoughts, or even groceries!
 
-
-
-***Typist***
+With a clean, distraction-free interface, ***Typist*** makes it easy to capture, organize, and access your notes effortlessly. Whether you're jotting down quick ideas or drafting detailed documents.
 
 *Find the repo [here](https://github.com/Rod-Freedom/C11-Typist).*<br>
-*Watch our tutorial [here](https://youtu.be/KGUw7XCQuS4?feature=shared)!*<br>
-*Go to the site [here](https://rod-freedom.github.io/C11-Typist/)!*
+*Go to the site [here](https://typist-j7vq.onrender.com)!*
 
 <br>
 <br>
@@ -43,60 +40,49 @@ Record from tasks to mental notes or even groceries!
 [(Back to the Top)](#about-the-project)
 
 ## Resources
-* For the HTML:
-    * Added Tailwind framework.
-    * Favicon.
-    * Forced dark mode.
-    * Google fonts.
-    * Meta description.
-    * `defer` attribute.
-    * `type="module"` scripts.
-* For the CSS:
-    * Tailwind.
-    * Tailwindcss `@apply`.
-    * Intuitive classes.
-    * `::after` and `::before` art.
-    * ```Calc()``` sizes for responsiveness.
-    * Transitions.
-    * `aspect-ratio` media queries.
-    * `max-width` media queries.
 * For JavaScript
     * ES6 modules.
     * Promises.
     * Extensive object and array destructuring.
-    * Polymorphism for methods.
     * Classes and constructors.
-    * Extended classes.
-    * `static` methods.
-    * `AbortSignal.abort()` to remove event listeners.
-    * Event listeners.
-    * `Day()` object.
-    * `Day()` object methods.
-    * Extensive UNIX manipulation with timezone adaptations.
-    * `throw new Error` to stop faulty executions.
-    * `setTimeout` executions for UX and UI features.
-    * `async` and `await` executions.
+    * Methods for classes.
+* For Node
+    * express.js
+        * Routers.
+        * Static assets.
+        * `app.use(urlencoded({ extended: true }))` to parse urlencoded data.
+        * `app.use(json())` to parse JSON data.
+        * `app.use('/api', api)` to use api routes.
+
+    * fs module
+        * Synchronous methods.
+            * `readFileSync()` and `writeFileSync()` to save and read data from the JSON db.
+    
+
 
 <br>
 
 [(Back to the Top)](#about-the-project)
 
 ## Get Started
-*Watch our tutorial [here](https://youtu.be/KGUw7XCQuS4?feature=shared)!*
-
-No installation is required, just go to the site [here](https://rod-freedom.github.io/C11-Typist/) and explore Typist!
+No installation is required, just go to the site [here](https://typist-j7vq.onrender.com) and explore Typist!
 
 <br>
 
 [(Back to the Top)](#about-the-project)
 
 ## Usage
-*Watch our tutorial [**here**](https://youtu.be/KGUw7XCQuS4?feature=shared)!*
-
 **Typist** is easy and intuitive to use.
-Something
 
-> ![Search for cities](./assets/images/demos/search.png)
+Once you've entered the site, click `Get Started` and you'll be redirected to the notes page.
+
+On the left, you'll see the saved notes; you can click on any of them to see their content.
+
+To save new notes, fill in the blanks or click the `New Note` button; once you have filled in the title and content, click `Save Note`.
+
+To delete any of them, click on the trash can.
+
+> ![Search for cities](./demo/demo.GIF)
 
 <br>
 

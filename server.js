@@ -10,4 +10,4 @@ app.use(urlencoded({ extended: true }));
 app.use(json());
 app.use('/api', api);
 
-app.listen(PORT, () => console.log(`Serving routes for Typist at http://localhost:${PORT} !`));
+app.listen(PORT, () => console.log(`Serving routes for Typist at port ${PORT} !`));
