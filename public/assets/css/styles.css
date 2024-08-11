@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+.font-brand {
+  font-family: "Courier Prime", monospace;
+}
+
 .save-note, .new-note, .clear-btn {
   display: none;
 }
