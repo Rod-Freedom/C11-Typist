@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/Rod-Freedom/C11-Typist/issues"
   },
+  "type": "module",
   "dependencies": {
     "express": "^4.19.2"
   },

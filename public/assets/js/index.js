@@ -77,6 +77,7 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value
   };
+  
   saveNote(newNote).then(() => {
     getAndRenderNotes();
     renderActiveNote();
@@ -98,7 +99,7 @@ const handleNoteDelete = (e) => {
   deleteNote(noteId).then(() => {
     getAndRenderNotes();
     renderActiveNote();
-  });
+  })
 };
 
 // Sets the activeNote and displays it
@@ -109,7 +110,7 @@ const handleNoteView = (e) => {
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
-const handleNewNoteView = (e) => {
+const handleNewNoteView = () => {
   activeNote = {};
   show(clearBtn);
   renderActiveNote();
@@ -148,7 +149,7 @@ const renderNoteList = async (notes) => {
 
     liEl.append(spanEl);
 
-    if (delBtn) {
+    if (delBtn === true) {
       const delBtnEl = document.createElement('i');
       delBtnEl.classList.add(
         'fas',
@@ -169,8 +170,11 @@ const renderNoteList = async (notes) => {
     noteListItems.push(createLi('No saved Notes', false));
   }
 
-  jsonNotes.forEach((note) => {
-    const li = createLi(note.title);
+  jsonNotes.forEach(note => {
+    const { title, id } = note;
+    const btnConfirm = id === '5363' ? false : true;
+
+    const li = createLi(title, btnConfirm);
     li.dataset.note = JSON.stringify(note);
 
     noteListItems.push(li);
